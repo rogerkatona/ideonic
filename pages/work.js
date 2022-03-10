@@ -47,7 +47,7 @@ export default function Portfolio({allPostsData}) {
             <section>
                 <header className='max-w-7xl mx-auto xl:px-0 md:px-12 px-6 py-12'>
                     <div id="headlineText" className='text-6xl text-gray-700 font-light'>
-                        Our Work
+                        Portfolio
                     </div>
                     <div id="subHeadlineText" className='text-base text-gray-500 mt-2'>
                         For over 15 years, Designing digital products that were ahead of their time, across an array of platforms, for the world’s largest, most influential brands, mid-sized companies and extraordinary startups.

@@ -1,7 +1,7 @@
 
 export default function HeroIndex({ children, home }) {
     return (
-        <section className="flex lg:h-screen90vh h-screen80vh bg-hero-pattern flex-row justify-center items-center relative">
+        <section className="flex lg:h-screen90vh h-screen80vh bg-hero-pattern flex-row justify-center items-center relative mb-4">
             <div className="xl:px-0 md:px-12 px-6">
 
                 <div className="">
