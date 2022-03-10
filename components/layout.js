@@ -2,13 +2,13 @@ import Head from 'next/head'
 import Header from "./header";
 import Footer from "./footer";
 
-export const siteTitle = 'Blue Prospect Web Studio'
+export const siteTitle = 'Ideonic Labs'
 
 export default function Layout({ children}) {
 
     return (
         <>
-            <div className="flex flex-col">
+            <div className="flex flex-col m-4">
                 <Head>
                     <title>{siteTitle}</title>
                     <link rel="icon" href="/favicon.ico" />

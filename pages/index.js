@@ -34,7 +34,7 @@ export default function Home({allPostsData}) {
         <HighlightServices/>
         <HighlightVideoArtistry/>
         <HighlightQuoteKalvera/>
-      <section className='bg-primary bg-opacity-5 w-full xl:px-0 md:px-12 px-6 xl:py-24 py-12'>
+      <section className='bg-blend-color w-full xl:px-0 md:px-12 px-6 xl:py-24 py-12'>
         {
           featuredPosts
               .filter(featured => featured.type === 'articles')

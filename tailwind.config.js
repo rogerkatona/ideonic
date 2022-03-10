@@ -23,21 +23,20 @@ module.exports = {
         "screen65vh": "calc(65vh)",
         "screen35vh": "calc(35vh)",
       }),
-
-      gradientColorStops: theme => ({
-        ...theme('colors'),
-        'primary': '#3490dc',
-        'secondary': '#ffed4a',
-        'contact': '#6D6B3D',
-      }),
     },
+
+    gradientColorStops: theme => ({
+      ...theme('colors'),
+      'primary': '#369EB5',
+      'secondary': '#BCDBCB',
+    }),
 
     fill: theme => ({
       'red': theme('colors.red.500'),
       'green': theme('colors.green.500'),
       'blue': theme('colors.blue.500'),
       'lightGray': '#e1e1e1',
-      'primary': '#628AA1',
+      'primary': '#2499B5',
     }),
     textColor: theme => ({
       ...theme('colors'),
@@ -61,7 +60,7 @@ module.exports = {
     }),
     backgroundColor: theme => ({
       ...theme('colors'),
-      'primary': '#628AA1',
+      'primary': '#2499B5',
       'primaryLight': '#72A0B9',
       'primaryDark': '#61788C',
       'secondary': '#52717D',
@@ -94,11 +93,6 @@ module.exports = {
       'campaign': '#495055',
       'campaignLight': '#636B70',
       'campaignCTA': '#F4A04E',
-
-
-
-
-
     }),
     borderColor: theme => ({
       ...theme('colors'),
@@ -144,7 +138,6 @@ module.exports = {
       '200': '2',
     },
     backgroundImage: theme => ({
-      'hero-pattern': "url('/image/logo-bp.png')",
       'hero-sm': "url('/image/logo-bp.png')",
       'hero-about': "url('/image/aboutLadder.png')",
       'bg-contactModal': "url('/image/bg-contact.jpeg')",
@@ -154,10 +147,7 @@ module.exports = {
       'bg-uxAudit-03': "url('/image/icon-campaign-uxaudit-03-opacity35.svg')",
       'bg-uxAudit-04': "url('/image/icon-campaign-uxaudit-04-opacity35.svg')",
       'bg-uxAudit-05': "url('/image/icon-campaign-uxaudit-05-opacity35.svg')",
-
-
-
-
+      'hero-pattern': "linear-gradient(to bottom, rgb(54,158,181), rgb(188,219,203))",
     }),
 
     backgroundPosition: {

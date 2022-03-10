@@ -1,17 +1,3 @@
-import {useRouter} from "next/router";
-
-// let articlePath;
-//
-// function articlePathOptions(){
-//     const router = useRouter()
-//     if (router.pathname === '/articles/[...id].js'){
-//         articlePath = '/articles'
-//         console.log (router.pathname)
-//     } else {
-//         articlePath = '/articles'
-//     }
-// }
-
 
 const navItems = [
     {
@@ -19,8 +5,12 @@ const navItems = [
         path: "/services",
     },
     {
-        label: "Our Work",
-        path: "/work",
+        label: "Portfolio",
+        path: "/portfolio",
+    },
+    {
+        label: "How We Work",
+        path: "/process",
     },
     {
         label: "Articles",
@@ -29,6 +19,10 @@ const navItems = [
     {
         label: "About",
         path: "/about",
+    },
+    {
+        label: "Contact",
+        path: "/contact",
     }
 ];
 
